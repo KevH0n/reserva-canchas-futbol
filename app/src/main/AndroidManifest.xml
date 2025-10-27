@@ -12,6 +12,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyFinal">
         <activity
+            android:name=".ui.admin.AdminDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.usuario.PagoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.usuario.DetalleCanchaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.usuario.ListaCanchasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.auth.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
